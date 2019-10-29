@@ -2,8 +2,8 @@
 
 # Site Settings
 title: Justin's Resume
-url: 'https://salujajustin.github.io/'
-baseurl: '/resume' #change it according to your repository name
+url: 'https://salujajustin.github.io'
+baseurl: '/online-cv' #change it according to your repository name
 description: A page for describing most of Justin's accomplishments 
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: ceramic # blue turquoise green berry orange ceramic
