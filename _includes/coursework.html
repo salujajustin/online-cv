@@ -1,0 +1,38 @@
+{% assign coursework = site.data.data.coursework %}
+{% if coursework %}
+<section class="section coursework-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-school fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ coursework.title }}
+  </h2>
+
+  {% if coursework.intro %}
+  <div class="intro">
+      <p>{{ coursework.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for course in coursework.assignments %}
+    <div class="item">
+
+      <b><span class="course-title">
+        {% if course.link %}
+        <a href="{{ course.link }}" target="_blank">{{ course.title }}</a>
+        {% else %}
+        {{ course.title }}
+        {% endif %}
+      </span></b>
+
+      {% if course.tagline %}
+      - <span class="course-tagline">{{ course.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
