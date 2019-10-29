@@ -22,14 +22,17 @@ sidebar:
     clearance: TS/SCI-cleared
 
     interests:
-        # - item: # Guitar, Piano
-        #   link:
+        - item: My Girlfriend: Clarissa <3 
+          link:
+              
+        - item: # Guitar, Piano
+          link:
 
-        # - item: # Personal Training
-        #   link:
+        - item: # Personal Training
+          link:
 
-        # - item: # Digital Art 
-        #   link:
+        - item: # Digital Art 
+          link:
 
 # career-profile:
     # title: About Me 
