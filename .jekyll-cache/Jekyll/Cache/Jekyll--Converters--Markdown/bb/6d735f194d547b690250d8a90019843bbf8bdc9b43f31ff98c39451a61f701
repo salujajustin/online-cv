@@ -1,0 +1,8 @@
+I"ì<ul>
+  <li>Implemented a real time supervised machine learning method to accurately measure heart rate, &lt; 4% error, even if it is weak or overwhelmed by respiratory movement using non-contact Doppler radar</li>
+  <li>Designed and manufactured custom photoplethysmogram (PPG) \&amp; electrocardiogram (ECG) circuits for ground truth measurement and error analysis</li>
+  <li>Developed a user friendly Python wrapper for the NI-USB DAQ series driver to sample, timestamp, and record multiple analog inputs</li>
+  <li>Surveyed and compiled a patient database of Doppler radar samples for the scientific community</li>
+  <li>Created Interactive GUIs for real time heart beat analysis using dynamic plotting libraries and the Qt interface</li>
+</ul>
+:ET

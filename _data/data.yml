@@ -10,7 +10,7 @@ sidebar:
     # Sidebar links
     email: salujajustin@gmail.com 
     phone: +1 941 993 6395
-    website: github.com/salujajustin
+    website: 
     linkedin: 
     github: salujajustin
     gitlab:
@@ -19,29 +19,30 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    clearance: TS/SCI-cleared
+    statement: Research Statement
 
-    interests:
-        - item: My Girlfriend Clarissa  
-          link:
+    # interests:
+        # - item: # My Girlfriend Clarissa  
+          # link:
               
-        - item: # Guitar, Piano
-          link:
+        # - item: # Guitar, Piano
+          # link:
 
-        - item: # Personal Training
-          link:
+        # - item: # Personal Training
+          # link:
 
-        - item: # Digital Art 
-          link:
+        # - item: # Digital Art 
+          # link:
 
 # career-profile:
     # title: About Me 
     # summary: |
-      # My area of intrests lie in the . I enjoy building meaningfull  
+      # My research interests span the engineering of intelligent systems and wireless networks. I enjoy building algorithmic models to enable new technologies in the context of society. Impacted areas are wireless perception and sensing, dynamic systems, and digital medicine. To accomplish this, inspiration is drawn from hardware design, computer networks, machine learning, and signal processing.  
       
 
 education:
-    - degree: BS in Electrical Engineering - summa cum laude
+    - degree: BS in Electrical Engineering  
+      honors: summa cum laude
       university: University of Florida
       time: December 2018
       details: | 
@@ -165,30 +166,35 @@ publications:
         conference: "IEEE International Microwave Biomedical Conference (IMBioC), 2018"
 
 research:
-    title: Mixed Coordinate System Dynamic Estimation for Agile 3D Maneuvers
-    details: |
-        - Derived a hybrid cartesian-spherical tracking algorithm for fast moving aerial targets by Frequency Modulated Continuous Wave (FMCW) radar
-        - Established substantial accuracy improvement compared to previous benchmark studies found in practical 3D target tracking through Monte Carlo simulations
-        - Produced 3D animations and GUIs for real time error analysis and visual inspection
+    title: Research 
+    intro: # | 
+    # Summary goes here
 
-    title: A Supervised Machine Learning Algorithm for Heart-rate Detection Using Doppler Motion-Sensing Radar
-    details: |
-        - Implemented a real time supervised machine learning method to accurately measure heart rate, $<$ 4\% error, even if it is weak or overwhelmed by respiratory movement using non-contact Doppler radar
-        - Designed and manufactured custom photoplethysmogram (PPG) \& electrocardiogram (ECG) circuits for ground truth measurement and error analysis
-        - Developed a user friendly Python wrapper for the NI-USB DAQ series driver to sample, timestamp, and record multiple analog inputs 
-        - Surveyed and compiled a patient database of Doppler radar samples for the scientific community
-        - Created Interactive GUIs for real time heart beat analysis using dynamic plotting libraries and the Qt interface
+    topic:
+      - title: Mixed Coordinate System Dynamic Estimation for Agile 3D Maneuvers
+        details: |
+            - Derived a hybrid cartesian-spherical tracking algorithm for fast moving aerial targets by Frequency Modulated Continuous Wave (FMCW) radar
+            - Established substantial accuracy improvement compared to previous benchmark studies found in practical 3D target tracking through Monte Carlo simulations
+            - Produced 3D animations and GUIs for real time error analysis and visual inspection
 
-    title: An Optimal Jamming Strategy in a Wireless Ad hoc Network
-    details: |
-        - Assessed the feasibility of a binary integer linear program (ILP) algorithm to partition a small $\leq$ 50-node mobile network with desired mobility model implementation
-        - Coded and matured mobility models (e.g. Random Waypoint, Random Direction, Reference Point Group Mobility Models) for the performance evaluation of jammer placement and network preservation
-        - Built and tested autonomous robots under jammed communication environments
+      - title: A Supervised Machine Learning Algorithm for Heart-rate Detection Using Doppler Motion-Sensing Radar
+        details: |
+            - Implemented a real time supervised machine learning method to accurately measure heart rate, < 4% error, even if it is weak or overwhelmed by respiratory movement using non-contact Doppler radar
+            - Designed and manufactured custom photoplethysmogram (PPG) & electrocardiogram (ECG) circuits for ground truth measurement and error analysis
+            - Developed a user friendly Python wrapper for the NI-USB DAQ series driver to sample, timestamp, and record multiple analog inputs 
+            - Surveyed and compiled a patient database of Doppler radar samples for the scientific community
+            - Created Interactive GUIs for real time heart beat analysis using dynamic plotting libraries and the Qt interface
 
-    title: Empirical Verification of Theoretical Models on Performance Characteristics of Micro-Pillar Wick Structures 
-    details: |
-        - Designed and manufactured support structures for passive heat spreaders
-        - Analyzed and compared different wick architectures, which was used to design the optimal wick for a given set of conditions 
+      - title: An Optimal Jamming Strategy in a Wireless Ad hoc Network
+        details: |
+            - Assessed the feasibility of a binary integer linear program (ILP) algorithm to partition a small < 50-node mobile network with desired mobility model implementation
+            - Coded and matured mobility models (e.g. Random Waypoint, Random Direction, Reference Point Group Mobility Models) for the performance evaluation of jammer placement and network preservation
+            - Built and tested autonomous robots under jammed communication environments
+
+      - title: Empirical Verification of Theoretical Models on Performance Characteristics of Micro-Pillar Wick Structures 
+        details: |
+            - Designed and manufactured support structures for passive heat spreaders
+            - Analyzed and compared different wick architectures, which was used to design the optimal wick for a given set of conditions 
 
 
 footer: >

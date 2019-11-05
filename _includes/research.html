@@ -1,0 +1,29 @@
+{% assign research = site.data.data.research %}
+{% if research %}
+<section class="section research-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-chart-bar fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ research.title }}
+  </h2>
+
+  {% if research.intro %}
+  <div class="intro">
+    {{ research.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for publication in research.topic %}
+  <div class="item">
+    <div class="publication-title">{{ publication.title }}</div>
+
+    {{ if publication.details }}
+    <div class="publication-details">{{ publication.details | markdownify }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
