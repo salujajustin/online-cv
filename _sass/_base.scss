@@ -256,7 +256,19 @@ p {
     }
 }
 
-
+.courses {
+    .item {
+        float: left;
+        position: relative;
+        text-align: center;
+        width: 33.33%;
+        margin-bottom: 20px;
+    }
+    .course-tagline {
+        list-style-type: none;
+        // text-align: center;
+    }
+}
 
 
 .footer {

@@ -10,29 +10,33 @@
     {{ coursework.title }}
   </h2>
 
-  {% if coursework.intro %}
-  <div class="intro">
-      <p>{{ coursework.intro }}</p>
-  </div><!--//intro-->
-  {% endif %}
+  <div class="courses">
 
-  {% for course in coursework.assignments %}
-    <div class="item">
-
-      <b><span class="course-title">
-        {% if course.link %}
-        <a href="{{ course.link }}" target="_blank">{{ course.title }}</a>
-        {% else %}
-        {{ course.title }}
-        {% endif %}
-      </span></b>
-
-      {% if course.tagline %}
-      - <span class="course-tagline">{{ course.tagline }}</span>
+      {% if coursework.intro %}
+      <div class="intro">
+          <p>{{ coursework.intro }}</p>
+      </div><!--//intro-->
       {% endif %}
 
-    </div><!--//item-->
-  {% endfor %}
+      {% for course in coursework.assignments %}
+        <div class="item">
+
+          <b><span class="course-title">
+            {% if course.link %}
+            <a href="{{ course.link }}" target="_blank">{{ course.title }}</a>
+            {% else %}
+            {{ course.title }}
+            {% endif %}
+          </span></b>
+
+          {% if course.tagline %}
+            <div class="course-tagline">{{ course.tagline | markdownify }}</div>
+          {% endif %}
+
+        </div><!--//item-->
+      {% endfor %}
+
+  </div>
 
 </section><!--//section-->
 {% endif %}

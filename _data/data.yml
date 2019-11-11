@@ -54,13 +54,25 @@ coursework:
 
     assignments:
       - title: Computational Methods
-        tagline: "Machine Learning, Complex Analysis, Fourier Analysis, Signals & Systems" 
+        tagline: | 
+          Machine Learning   
+          Complex Analysis   
+          Fourier Analysis   
+          Signals & Systems  
  
       - title: Physics 
-        tagline: "Electrodynamics I/II, Quantum Mechanics, Introduction to Nano-devices" 
+        tagline: |
+          Electrostatics (I)  
+          Electrodynamics (II)  
+          Quantum Mechanics  
+          Introduction to Nano-devices  
           
       - title: Engineering Systems 
-        tagline: "Real Time DSP Applications, Microprocessor Applications, Antenna Systems, Communication Systems and Components, Radar, Electronic Circuits"
+        tagline: |
+          Real-Time DSP Applications  
+          Microprocessor Applications  
+          Antenna Systems & Radar 
+          Communication Systems  
 
 skills:
     title: Skills &amp; Proficiency
@@ -127,7 +139,6 @@ projects:
     intro: >
         Below is a selected list of side projects I've worked on in my free time.  
         Slowly but surely, they will be released to Github.
-        Checkout the ones with links!
 
     assignments:
       - title: VitalSine
