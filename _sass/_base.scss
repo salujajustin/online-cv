@@ -47,6 +47,14 @@ p {
     a {
         color: #fff;
     }
+    .contact-header {
+        text-align: center;
+        padding: 10px;
+    }
+    .links-header {
+        text-align: center;
+        padding: 10px;
+    }
     .profile-container {
         padding: 30px;
         //background: darken($theme-color, 10%);
@@ -55,7 +63,7 @@ p {
         color: #fff;
     }
     .name {
-        font-size: 32px;
+        font-size: 30px;
         font-weight: 900;
         margin-top: 0;
         margin-bottom: 10px;
